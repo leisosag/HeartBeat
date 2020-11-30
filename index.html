@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/675e0bba25.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>HeartBeat</title>
 </head>
@@ -51,26 +52,38 @@
     <section id="playlist">
         <div class="container pt-5">
             <div class="row d-flex justify-content-between align-center pt-5">
-                <div class="col-md-3 d-flex flex-column" id="playlist-container">
-                    <div class="playlist mb-1">
-                        <a href="#"><img src="./img/playlist.PNG" alt="playlist" class="playlist-img"></a>
+                <div class="col-md-2 d-flex flex-column" id="playlist-container">
+                    <div class="playlist mb-3">
+                        <a href="#" id="playlist1"><img src="./img/Positions.jpg" alt="playlist" class="playlist-img"></a>
                     </div>
-                    <div class="playlist mb-1">
-                        <a href="#"><img src="./img/playlist.PNG" alt="playlist" class="playlist-img"></a>
+                    <div class="playlist mb-3">
+                        <a href="#" id="playlist2"><img src="./img/Ho Hey.jpg" alt="playlist" class="playlist-img"></a>
                     </div>
-                    <div class="playlist mb-1">
-                        <a href="#"><img src="./img/playlist.PNG" alt="playlist" class="playlist-img"></a>
-                    </div>
-                </div>
-                <div class="col-md-3" id="tracks-container">
-                    <div class="track-container d-flex justify-content-around">
-                        <p>01</p>
-                        <img src="./img/playlist.PNG" alt="album" class="mt-1 mb-1">
-                        <p>Titulo</p>
-                        <p>Artista</p>
+                    <div class="playlist mb-3">
+                        <a href="#" id="playlist3"><img src="./img/Consequences.jpg" alt="playlist" class="playlist-img"></a>
                     </div>
                 </div>
-                <div class="col-md-3" id="player-container"></div>
+                <div class="col-md-6" id="tracks-container"></div>
+                <div class="col-md-4" id="player-container">
+                    <audio id="audio"></audio>
+                        <img src="./img/Positions.jpg" alt="album" id="cover">
+                        <h5 class="mt-1" id="titulo">Positions</h5>
+                        <h6 class="mt-1" id="artista">Ariana Grande</h6>
+                        <div class="progress-container" id="progress-container">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                        <div class="navigation">
+                            <button id="prev" class="action-btn">
+                                <i class="fas fa-backward"></i>
+                            </button>
+                            <button id="play" class="action-btn action-btn-big">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button id="next" class="action-btn">
+                                <i class="fas fa-forward"></i>
+                            </button>
+                        </div>
+                </div>
             </div>
         </div>
     </section>

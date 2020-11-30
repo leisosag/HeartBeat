@@ -1,0 +1,116 @@
+{
+    "playlist": [
+        {
+            "nombre": "Playlist 1",
+            "index" : 1,
+            "imagen" : "Positions",
+            "canciones": [
+                {
+                    "id": 1,
+                    "titulo": "Positions",
+                    "artista": "Ariana Grande"
+                },
+                {
+                    "id": 2,
+                    "titulo": "Consequences",
+                    "artista": "Camila Cabello"
+                },
+                {
+                    "id": 3,
+                    "titulo": "Monstruo",
+                    "artista": "Cami"
+                },
+                {
+                    "id": 4,
+                    "titulo": "Ho Hey",
+                    "artista": "The Lumineers"
+                },
+                {
+                    "id": 5,
+                    "titulo": "Conversations in the dark",
+                    "artista": "John Legend"
+                },
+                {
+                    "id": 6,
+                    "titulo": "Therefore I am",
+                    "artista": "Billie Eilish"
+                }
+            ]
+        },
+        {
+            "nombre": "Playlist 2",
+            "index" : 2,
+            "imagen" : "Positions",
+            "canciones": [
+                {
+                    "id": 1,
+                    "titulo": "Positions",
+                    "artista": "Ariana Grande"
+                },
+                {
+                    "id": 2,
+                    "titulo": "Consequences",
+                    "artista": "Camila Cabello"
+                },
+                {
+                    "id": 3,
+                    "titulo": "Monstruo",
+                    "artista": "Cami"
+                },
+                {
+                    "id": 4,
+                    "titulo": "Ho Hey",
+                    "artista": "The Lumineers"
+                },
+                {
+                    "id": 5,
+                    "titulo": "Conversations in the dark",
+                    "artista": "John Legend"
+                },
+                {
+                    "id": 6,
+                    "titulo": "Therefore I am",
+                    "artista": "Billie Eilish"
+                }
+            ]
+        },
+        {
+            "nombre": "Playlist 3",
+            "index" : 3,
+            "imagen" : "Positions",
+            "canciones": [
+                {
+                    "id": 1,
+                    "titulo": "Positions",
+                    "artista": "Ariana Grande"
+                },
+                {
+                    "id": 2,
+                    "titulo": "Consequences",
+                    "artista": "Camila Cabello"
+                },
+                {
+                    "id": 3,
+                    "titulo": "Monstruo",
+                    "artista": "Cami"
+                },
+                {
+                    "id": 4,
+                    "titulo": "Ho Hey",
+                    "artista": "The Lumineers"
+                },
+                {
+                    "id": 5,
+                    "titulo": "Conversations in the dark",
+                    "artista": "John Legend"
+                },
+                {
+                    "id": 6,
+                    "titulo": "Therefore I am",
+                    "artista": "Billie Eilish"
+                }
+            ]
+        }
+            
+    ]
+}
