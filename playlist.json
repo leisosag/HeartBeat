@@ -2,36 +2,42 @@
     "playlist": [
         {
             "id": 1,
+            "index": 1,
             "categoria": "playlist1",
             "titulo": "Positions",
             "artista": "Ariana Grande"
         },
         {
             "id": 2,
+            "index": 2,
             "categoria": "playlist1",
             "titulo": "Consequences",
             "artista": "Camila Cabello"
         },
         {
             "id": 3,
+            "index": 1,
             "categoria": "playlist2",
             "titulo": "Monstruo",
             "artista": "Cami"
         },
         {
             "id": 4,
+            "index": 2,
             "categoria": "playlist2",
             "titulo": "Ho Hey",
             "artista": "The Lumineers"
         },
         {
             "id": 5,
+            "index": 1,
             "categoria": "playlist3",
             "titulo": "Conversations in the dark",
             "artista": "John Legend"
         },
         {
             "id": 6,
+            "index": 2,
             "categoria": "playlist3",
             "titulo": "Therefore I am",
             "artista": "Billie Eilish"
