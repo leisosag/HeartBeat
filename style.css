@@ -41,25 +41,36 @@ nav {
   padding-top: 4rem;
 }
 #playlist-container {
-  width: 80%;
+  width: 100%;
 }
 .playlist {
   height: 20vh;
   border-radius: 1rem;
   position: relative;
 }
-.playlist-img {
+/*.playlist-img {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
-}
+}*/
 .playlist-img {
   height: 80%;
   border-radius: 1rem;
 }
+
+/* */
+#playlist-container {
+  list-style: none;
+}
+#playlist-container li {
+  padding: 0.5rem;
+  border: 1px solid var(--acento);
+  margin-bottom: 1rem;
+}
+
 #tracks-container {
   min-height: 40vh;
   width: 100%;
